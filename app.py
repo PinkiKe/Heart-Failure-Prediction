@@ -2,8 +2,6 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # 1. 載入模型
 model = joblib.load('random_forest_model.pkl')
